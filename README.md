@@ -19,7 +19,7 @@ Technologie und Planung
 
 Wählen Sie eine Operation aus und geben Sie zwei Zahlen ein.
 
-![Scanning for Network](src/example.png)
+![Scanning for Network](firstGif.gif)
 
 ## Features
 

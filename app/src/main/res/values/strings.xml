@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="multiplication">Multiplication</string>
+    <string name="division">Division</string>
+    <string name="_1st_number">1st Number</string>
+    <string name="_2nd_number">2nd Number</string>
+    <string name="result">Result</string>
+    <string name="addition">Addition</string>
+    <string name="subtraction">Subtraction</string>
+    <string name="save_results">Save results</string>
+    <string name="history">History</string>
+    <string name="Back">Back</string>
+</resources>

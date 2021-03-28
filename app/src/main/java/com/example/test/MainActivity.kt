@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        //setOn...
+        //setOnActio...
         switch.setOnCheckedChangeListener{_, isChecked ->
             sw_save = isChecked
         }

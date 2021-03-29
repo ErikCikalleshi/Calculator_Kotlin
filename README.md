@@ -6,7 +6,7 @@ Technologie und Planung
 
 ## Solution approach
 
-Als aller erstes werden alle Buttons, Views, etc initzialisiert
+Als aller erstes werden alle Buttons, Views, etc. initzialisiert
 ```
 val radioGroup = findViewById<RadioGroup>(R.id.radioGroup)
 val input1 = findViewById<TextView>(R.id.nr1)
@@ -106,5 +106,5 @@ Auf Bedarf können Sie ihre Ergebnisse speichern, indem Sie auf "Save Result" kl
 
 ![Switch](button.png)
 
-Um die Ergebnisse zu sehen, können sie auf dem Button "History" klicken.
+Um die Ergebnisse zu sehen, können sie auf dem Button **History** klicken.
 

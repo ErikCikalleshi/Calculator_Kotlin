@@ -88,9 +88,13 @@ Wenn der Switch-Button aktiviert ist, wird das Ergebnis in die Liste hinzugefüg
 
 Wählen Sie eine Operation aus und geben Sie zwei Zahlen ein.
 
-![Scanning for Network](firstGif.gif)
+![FirstScreen](firstGif.gif)
+
+![SecondScreen](thirdGif.gif)
 
 ## Features
+
+![Features](firstPic.png)
 
 ### Save Result
 

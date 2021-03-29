@@ -83,7 +83,27 @@ Wenn der Switch-Button aktiviert ist, wird das Ergebnis in die Liste hinzugefüg
         }
     }
 ```
+Der zweite Screen besteht aus einer ScrollView mit einem LinearLayout. 
+```
+val receivedData : ArrayList<String>? = intent.getStringArrayListExtra("data")
+val sw_save : Boolean = intent.getBooleanExtra("sw_switch", true)
 
+if(receivedData != null){
+    for (string in receivedData){
+        val value = TextView(this)
+        value.textSize = 15f
+        value.text = string
+        findViewById<LinearLayout>(R.id.linear).addView(value)
+    }
+}
+
+findViewById<Button>(R.id.button2).setOnClickListener{
+    val intent = Intent(this, MainActivity::class.java)
+    intent.putExtra("data", receivedData)
+    intent.putExtra("sw_save", sw_save)
+    startActivity(intent)
+}
+```
 ## How to use
 
 Wählen Sie eine Operation aus und geben Sie zwei Zahlen ein.
@@ -108,3 +128,5 @@ Auf Bedarf können Sie ihre Ergebnisse speichern, indem Sie auf "Save Result" kl
 
 Um die Ergebnisse zu sehen, können sie auf dem Button **History** klicken.
 
+## Fazit
+Man kann feststellen, dass Kotlin Java sehr ähnlich ist, aber die Syntax von Kotlin ist dennoch ungewohnt, wenn man immer mit Java programmiert hat. Für setOn... Actions, gibt es in Kotlin mehr Möglichkeiten als in Java. 

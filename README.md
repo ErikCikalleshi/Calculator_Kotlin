@@ -129,4 +129,4 @@ Auf Bedarf können Sie ihre Ergebnisse speichern, indem Sie auf "Save Result" kl
 Um die Ergebnisse zu sehen, können sie auf dem Button **History** klicken.
 
 ## Fazit
-Man kann feststellen, dass Kotlin Java sehr ähnlich ist, aber die Syntax von Kotlin ist dennoch ungewohnt, wenn man immer mit Java programmiert hat. Für setOn... Actions, gibt es in Kotlin mehr Möglichkeiten als in Java. 
+Man kann feststellen, dass Kotlin Java sehr ähnlich ist, aber die Syntax von Kotlin ist dennoch ungewohnt, wenn man immer mit Java programmiert hat. Für setOn... Actions, gibt es in Kotlin mehr Möglichkeiten als in Java. Insgesamt hatte ich keine großen Schwierigkeiten beim Programmieren, da Kotlin viele verschiedene Möglichkeiten bietet.

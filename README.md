@@ -46,10 +46,10 @@ Die Funktion **onActions** ist für die Interaktion mit verschiedenen Schaltflä
             operation()
         }
 
-        input1.setOnFocusChangeListener { _, _ ->
+        input1.doOnTextChanged { _, _, _, _->
             operation()
         }
-        input2.setOnFocusChangeListener { _, _ ->
+        input2.doOnTextChanged { _, _, _, _->
             operation()
         }
     }

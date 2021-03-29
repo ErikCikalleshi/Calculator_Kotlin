@@ -6,7 +6,7 @@ Technologie und Planung
 
 ## Solution approach
 
-Als aller erstes werden alle Buttons, Views, etc initzialisiert
+Als aller erstes werden alle Buttons, Views, etc. initzialisiert
 ```
 val radioGroup = findViewById<RadioGroup>(R.id.radioGroup)
 val input1 = findViewById<TextView>(R.id.nr1)
@@ -88,9 +88,13 @@ Wenn der Switch-Button aktiviert ist, wird das Ergebnis in die Liste hinzugefüg
 
 Wählen Sie eine Operation aus und geben Sie zwei Zahlen ein.
 
-![Scanning for Network](firstGif.gif)
+![FirstScreen](firstGif.gif)
+
+![SecondScreen](thirdGif.gif)
 
 ## Features
+
+![Features](firstPic.png)
 
 ### Save Result
 
@@ -102,5 +106,5 @@ Auf Bedarf können Sie ihre Ergebnisse speichern, indem Sie auf "Save Result" kl
 
 ![Switch](button.png)
 
-Um die Ergebnisse zu sehen, können sie auf dem Button "History" klicken.
+Um die Ergebnisse zu sehen, können sie auf dem Button **History** klicken.
 

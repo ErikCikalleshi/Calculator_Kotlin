@@ -5,6 +5,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.*
+import androidx.core.widget.doOnTextChanged
 import java.util.ArrayList
 
 class MainActivity : AppCompatActivity() {
@@ -60,10 +61,10 @@ class MainActivity : AppCompatActivity() {
             operation()
         }
 
-        input1.setOnFocusChangeListener { _, _ ->
+        input1.doOnTextChanged { _, _, _, _->
             operation()
         }
-        input2.setOnFocusChangeListener { _, _ ->
+        input2.doOnTextChanged { _, _, _, _->
             operation()
         }
     }
